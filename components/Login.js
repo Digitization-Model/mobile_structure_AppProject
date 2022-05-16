@@ -3,7 +3,7 @@ import { StatusBar } from 'expo-status-bar';
 import {StyleSheet, View, Text, TextInput, TouchableOpacity} from 'react-native'
 import { Icon } from "@rneui/themed";
 import { LinearGradient } from 'expo-linear-gradient';
-//
+//Diseño del Login
 function Login() {
   return (
     <View style={stylesLog.container}>
@@ -44,6 +44,10 @@ function Login() {
     </View>
   )
 }
+
+//Estilos CSS para App.js
+//Aca crearemos los estilos o caracteristicas graficas que 
+//van a tener nuestras etiquetas [View, Text, TextInput, TouchableOpacity]
 const stylesLog = StyleSheet.create({
     container: {
         flex: 1,
